@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>HTML form</title>
+</head>
+<body>
+<center><form name="input" action="#" method="post">
+  <h1>create your own pizza!</h1>
+   
+<p>
+         <strong>Login:</strong><input type="text" name="id"/><br />
+         <strong>Password:</strong><input type="text" name="password"/><br />
+       </p>
+      <p><strong>Select the pizza size:</strong><br />
+        <input type="radio" value="big" name="size" id="size" checked tabindex="1" />Big<br />
+        <input type="radio" value="medium" name="size" id="size" tabindex="2" />Medium<br />
+        <input type="radio" value="small" name="size" id="size" tabindex="3" />Small
+      </p>
+      <p>
+        <strong>Select the crust type:</strong><br />
+          <select name="crust" id="crust" size="1">
+            <option value="deep dish" tabindex="4">Deep Dish</option>
+            <option value="hand-tossed" tabindex="5">Hand-Tossed</option>
+            <option value="thin &amp; crispy" tabindex="6">Thin &amp; Crispy</option>
+          </select>
+       </p>
+       <p>
+         <strong>Select the filler:</strong><br />
+           <input type="checkbox" name="toppings" id="toppings" value="sausages" tabindex="7" />Sausages<br />
+           <input type="checkbox" name="pepper" id="toppings" value="sausages" tabindex="8" />Pepper<br />
+           <input type="checkbox" name="mushrooms" id="toppings" value="sausages" tabindex="9" />Mushrooms<br />
+       </p>
+       
+       <p>
+         <input type="submit" value="Send" name="submit" id="submit" />
+         
+       </p>
+     </form>
+  </body>
+</html>
+
